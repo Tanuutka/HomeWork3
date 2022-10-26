@@ -14,4 +14,5 @@ int y = y2 - y1;
 int z = z2 - z1; 
 
 double length = Math.Sqrt(x*x + y*y + z*z);
+length = Math.Round (length,2);
 Console.WriteLine("Длина равна: " + length);
